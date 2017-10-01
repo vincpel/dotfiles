@@ -4,8 +4,6 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-
-" let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 Bundle 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
@@ -14,12 +12,10 @@ Plugin 'valloric/youcompleteme'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'artur-shaik/vim-javacomplete2'
-" color scheame
 Plugin 'tpope/vim-vividchalk'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'lifepillar/vim-solarized8.git'
-
-" All of your Plugins must be added before the following line
+Plugin 'ternjs/tern_for_vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 " To ignore plugin indent changes, instead use:

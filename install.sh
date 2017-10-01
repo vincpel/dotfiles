@@ -10,6 +10,10 @@ case $response in
          git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
          cp .vimrc ~/.vimrc
          vim +PluginInstall +qall
+         sudo npm install -g typescript
+         cd ~/.vim/bundle/youcompleteme/
+         ./install.sh --tern-completer
+         cp .tern-project ~/.tern-project
 
         ;;
     *)
